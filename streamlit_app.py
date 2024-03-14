@@ -17,7 +17,7 @@ if "openai_model" not in st.session_state:
 if "messages" not in st.session_state:
     # Start with an introduction message from Jarvis
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    st.session_state.messages = [{"role": "assistant", "content": f"Hello, I am Jarvis 🤖 and today's date is {current_time}.\nHow can I assist you today?"}]
+    st.session_state.messages = [{"role": "assistant", "content": f"Hello, I am Jarvis 🤖 and today's is {current_time}.\nHow can I assist you today?"}]
     
 # Display chat messages from history on app rerun
 for message in st.session_state.messages:
