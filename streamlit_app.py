@@ -1,6 +1,6 @@
 import streamlit as st
 from openai import OpenAI
-st.title("Jarvis 🤖🔗 Chat with website")
+st.title("Jarvis 🤖🔗 Chat")
 
 # Set OpenAI API key from Streamlit secrets
 # .streamlit/secrets.toml
