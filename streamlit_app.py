@@ -1,4 +1,5 @@
 import streamlit as st
+from datetime import datetime
 from openai import OpenAI
 
 st.title("Jarvis 🤖🔗 Chat")
@@ -15,8 +16,8 @@ if "openai_model" not in st.session_state:
 # Initialize chat history
 if "messages" not in st.session_state:
     # Start with an introduction message from Jarvis
-    st.session_state.messages = [{"role": "assistant", "content": "Hello, I am Jarvis 🤖. How can I assist you today?"}]
-
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    st.session_state.messages = [{"role": "assistant", "content": f"Hello, I am Jarvis 🤖 and today's date is {current_time}.\nHow can I assist you today?"}]
     
 # Display chat messages from history on app rerun
 for message in st.session_state.messages:
