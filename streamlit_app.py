@@ -3,6 +3,21 @@ from datetime import datetime
 from openai import OpenAI
 
 st.title("Jarvis 🤖🔗 Chat")
+
+# Add to your existing Streamlit script
+
+st.markdown("""
+## Use Case Example: Learning to Create GPT-like Applications
+
+**Background**: Emily, a software developer, is interested in developing her own GPT-like applications. She has basic knowledge of AI and coding but wants to understand the practical aspects of integrating AI models into applications.
+
+**Use Case**: Emily uses the Jarvis 🤖🔗 Chat application to learn more about this topic. She starts by asking, "What are the key components of a GPT-like application?" After receiving an overview, she dives deeper by asking, "How can I integrate a GPT model into a web application?"
+
+**Outcome**: Through the conversation with Jarvis, Emily gains insights into the architecture of GPT-like applications, including the frontend interface, API layer, and model hosting. She also learns about different tools and libraries she can use for her project. Empowered with this knowledge, Emily feels more confident in starting her own project and exploring further.
+
+Please feel free to ask any questions related to creating GPT-like applications or any general inquiries you might have.
+""")
+
 # Set OpenAI API key from Streamlit secrets
 # .streamlit/secrets.toml
 
