@@ -16,7 +16,7 @@ st.markdown("""
 **Outcome**: Through the conversation with Jarvis, Emily gains insights into the architecture of GPT-like applications, including the frontend interface, API layer, and model hosting. She also learns about different tools and libraries she can use for her project. Empowered with this knowledge, Emily feels more confident in starting her own project and exploring further.
 
 Please feel free to ask any questions related to creating GPT-like applications or any general inquiries you might have.
-""")
+""", unsafe_allow_html=True)
 
 # Set OpenAI API key from Streamlit secrets
 # .streamlit/secrets.toml
