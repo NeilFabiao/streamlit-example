@@ -2,20 +2,20 @@ import streamlit as st
 from datetime import datetime
 from openai import OpenAI
 
-st.title("Jarvis 🤖🔗 Chat")
+st.title("Jarvis 🤖🔗 - Learning to create GPT like app")
 
 # Add to your existing Streamlit script
 
 st.markdown("""
-## Use Case Example: Learning to Create GPT-like Applications
+## Use Case Example: Gaining Insights on Diverse Topics
 
-**Background**: Emily, a software developer, is interested in developing her own GPT-like applications. She has basic knowledge of AI and coding but wants to understand the practical aspects of integrating AI models into applications.
+**Background**: Alex is a curious individual with a wide range of interests, from history and science to cooking and gardening. While Alex enjoys learning, he often finds it time-consuming to search for and digest large amounts of information on different topics.
 
-**Use Case**: Emily uses the Jarvis 🤖🔗 Chat application to learn more about this topic. She starts by asking, "What are the key components of a GPT-like application?" After receiving an overview, she dives deeper by asking, "How can I integrate a GPT model into a web application?"
+**Use Case**: Alex discovers the Jarvis 🤖🔗 Chat application (based on GPT-3), which can provide concise answers and explanations on a variety of topics. He starts by asking, "What is the history of the Roman Empire?" After reviewing the summary, he moves on to different questions like "How does photosynthesis work?" and "What are some easy recipes for homemade bread?"
 
-**Outcome**: Through the conversation with Jarvis, Emily gains insights into the architecture of GPT-like applications, including the frontend interface, API layer, and model hosting. She also learns about different tools and libraries she can use for her project. Empowered with this knowledge, Emily feels more confident in starting her own project and exploring further.
+**Outcome**: Using Jarvis, Alex can quickly obtain clear and concise information on all his questions. This saves him time and makes learning new topics an enjoyable and efficient process. He now uses Jarvis as his go-to tool for satisfying his curiosity and expanding his knowledge base.
 
-Please feel free to ask any questions related to creating GPT-like applications or any general inquiries you might have.
+Feel free to ask any questions you might have, whether they're about historical events, scientific concepts, cooking tips, or anything else you're curious about.
 """, unsafe_allow_html=True)
 
 # Set OpenAI API key from Streamlit secrets
